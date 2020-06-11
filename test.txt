@@ -1,0 +1,9 @@
+    <div id="bkg1">
+        <div class="form">
+            <form action="" method="get">
+            <h1>Inserisci la località</h1>
+            <input id='cityName' type='text'/>
+            <button onclick="getWeather()">Vai</button>
+            </form>
+        </div> 
+    </div>

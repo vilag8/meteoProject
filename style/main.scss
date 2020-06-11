@@ -1,0 +1,69 @@
+body{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#bkg1{
+    background-image: url("..//images/cielo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16%;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    img{
+    position: fixed; 
+    width: 10%;
+    }
+}
+
+.temperature-description p{
+    text-transform: capitalize; 
+}
+
+footer{
+    position: absolute;
+    top: 94%;
+    left: 46%;
+    img{
+        width: 20%;
+    }
+}
+
+/** MEDIA QUERY **/
+/* Mobile Styles */ 
+@media only screen and (max-width: 422px) {
+    #bkg1{
+        padding: 32%;
+        background-image: url("..//images/lunga.jpg");
+        background-size: unset;
+    }
+    .weather-copntainer{
+        margin-bottom: 232%;
+
+    }
+    .logo img{
+        width: 26%;
+    }
+    footer{
+        left: 37%;
+    }
+}
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    #bkg1{
+        background-image: url("..//images/cieloipad.jpg");
+        background-size: unset;
+        padding: 32%;
+        .weather-copntainer{
+            margin-bottom: 95%;
+        }
+    }
+    footer{
+        left: 44%;
+    }
+  }
